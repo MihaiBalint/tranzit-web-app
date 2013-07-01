@@ -1,0 +1,34 @@
+{
+    "version": "0.1",
+    "name": "Timisoara Public Transport",
+    "description": "Get live public transport arrival times in Timisoara.",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/img/icons/mortar-16.png",
+        "48": "/img/icons/mortar-48.png",
+        "128": "/img/icons/mortar-128.png"
+    },
+    "developer": {
+        "name": "Mihai Balint",
+        "url": "http://yourawesomeapp.com"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "ro": {
+            "description": "Accesati direct de pe telefon timpii de sosire a mijloacelor de transport RATT.",
+            "developer": {
+                "url": "http://yourawesomeapp.com"
+            }
+        },
+        "en": {
+            "description": "Get live public transport arrival times in Timisoara.",
+            "developer": {
+                "url": "http://yourawesomeapp.com"
+            }
+        }
+    },
+    "default_locale": "en",
+    "permissions": {
+        "systemXHR": {}
+    }
+}
