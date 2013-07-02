@@ -12,3 +12,17 @@ body {
     font-family: verdana;
     font-size: 10pt;
 }
+
+#os-controls {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+#app-navigation {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: auto;
+}

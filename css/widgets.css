@@ -1,21 +1,24 @@
 
 button {
-    height: 3.8rem;
     margin: 0 0 1rem;
     padding: 0 1.5rem;
-    background: #fafafa;
-    border: 0.1rem solid #a6a6a6;
-    border-radius: 0.2rem;
-    font-size: 1.6rem;
-    line-height: 3.8rem;
-    color: #333;
-    text-align: center;
-    text-shadow: 0.1rem 0.1rem 0 rgba(255,255,255,0.3);
-    text-decoration: none;
-    outline: none;
 }
 
 #firefox-os-install-btn, #firefox-os-installed-btn {
     display: none;
     float: left;
+    height: 3.8rem;
+    font-size: 1.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+}
+
+#app-back-btn {
+    float: left;
+    height: 2.5rem;
+}
+
+#app-settings-btn {
+    float: right;
+    height: 2.5rem;
 }
